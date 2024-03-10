@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #aba0a0; 
+    background-image: url('img/9693749.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#directors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#directors div {
+    background-color: #fff; 
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2); 
+    border: 1px solid #ddd; 
+}
+
+#directors div h2 {
+    color: #444;}
+
+#directors div a {
+    color: #228B22; 
+    text-decoration: none;
+}
+
+#directors div a:hover {
+    color: #006400; 
+}
